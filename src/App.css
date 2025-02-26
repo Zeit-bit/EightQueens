@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.filaTablero {
+  display: flex;
+}
+
+.cuadrado {
+  border-radius: 0;
+  height: 60px;
+  width: 60px;
+}
+.cuadrado.blanco {
+  background-color: white;
+  color: black;
+}
+
+.cuadrado.negro {
+  background-color: black;
+  color: white;
+}
+
+.game_zone {
+  display: flex;
+  width: 605px;
+  margin-left: 5px;
+}
+
+.tablero {
+}
+
+.solutions {
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  background-color: gainsboro;
+  overflow-y: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
